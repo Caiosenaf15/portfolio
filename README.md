@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfólio — Caio Sena Freitas
 
-## Getting Started
+Site pessoal de portfólio, construído para apresentar minha trajetória, experiência profissional, projetos e artigos acadêmicos.
 
-First, run the development server:
+🔗 **Acesse:** [portfolio-caio.vercel.app](https://portfolio-tau-hazel-26.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Sobre o projeto
+
+Portfólio desenvolvido com foco em performance, design minimalista e organização de conteúdo por seções: sobre, experiência profissional, projetos, artigos acadêmicos, certificações, skills e contato.
+
+## Tecnologias utilizadas
+
+- **[Next.js](https://nextjs.org/)** — framework React com App Router
+- **[TypeScript](https://www.typescriptlang.org/)** — tipagem estática
+- **[Tailwind CSS v4](https://tailwindcss.com/)** — estilização utilitária
+- **[Framer Motion](https://www.framer.com/motion/)** — animações de entrada (fade-in) ao rolar a página
+- **[Lucide React](https://lucide.dev/)** — ícones
+- **[Vercel](https://vercel.com/)** — hospedagem e deploy contínuo via GitHub
+
+## Estrutura do projeto
+
+```
+src/
+├── app/
+│   ├── layout.tsx        # Layout global, fontes e metadados
+│   ├── page.tsx           # Composição das seções da página
+│   └── globals.css        # Tema (cores, fontes) e estilos globais
+└── components/
+    ├── Navbar.tsx          # Menu fixo com navegação e versão mobile
+    ├── Hero.tsx            # Seção inicial de apresentação
+    ├── About.tsx           # Sobre mim
+    ├── Experience.tsx      # Timeline de experiência profissional
+    ├── Projects.tsx        # Grid de projetos com imagens e links
+    ├── Articles.tsx        # Lista de artigos acadêmicos
+    ├── Certifications.tsx  # Grid de certificações
+    ├── Skills.tsx          # Skills agrupadas por categoria
+    ├── Contact.tsx         # Seção de contato
+    ├── Footer.tsx          # Rodapé
+    └── FadeIn.tsx          # Wrapper reutilizável de animação de entrada
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Rodando localmente
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Pré-requisito: [Node.js](https://nodejs.org/) 18 ou superior.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# Clonar o repositório
+git clone https://github.com/Caiosenaf15/portfolio.git
+cd portfolio
 
-## Learn More
+# Instalar dependências
+npm install
 
-To learn more about Next.js, take a look at the following resources:
+# Rodar em desenvolvimento
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Acesse `http://localhost:3000` no navegador.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Build de produção
 
-## Deploy on Vercel
+```bash
+npm run build
+npm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deploy
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+O deploy é feito automaticamente pela [Vercel](https://vercel.com/) a cada push na branch `main`, através da integração com este repositório no GitHub.
+
+## Contato
+
+- **LinkedIn:** [linkedin.com/in/caio-sena-freitas](https://www.linkedin.com/in/caio-sena-freitas/)
+- **GitHub:** [github.com/Caiosenaf15](https://github.com/Caiosenaf15)
+- **Email:** caiofreitas15@yahoo.com.br
