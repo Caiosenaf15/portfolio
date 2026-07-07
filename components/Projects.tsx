@@ -9,7 +9,7 @@ const projects = [
     tags: ["Supabase", "JavaScript", "CSS", "Glassmorphism"],
     github: "",
     demo: "",
-    image: "./imgs/Maria15anos.png",
+    image: "/imgs/Maria15anos.png",
   },
   {
     title: "ProjetoFilmes",
@@ -18,7 +18,7 @@ const projects = [
     tags: ["PHP", "API Externa", "Docker", "MVC"],
     github: "https://github.com/Caiosenaf15/ProjetoFilmes",
     demo: "",
-    image: "./imgs/CineTrack.png",
+    image: "/imgs/CineTrack.png",
   },
 ];
 
