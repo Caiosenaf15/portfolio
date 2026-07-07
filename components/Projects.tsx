@@ -1,3 +1,4 @@
+import Image from "next/image";
 import FadeIn from "./FadeIn";
 
 const projects = [
@@ -8,6 +9,7 @@ const projects = [
     tags: ["Supabase", "JavaScript", "CSS", "Glassmorphism"],
     github: "",
     demo: "",
+    image: "/imgs/Maria15anos.png",
   },
   {
     title: "ProjetoFilmes",
@@ -16,6 +18,7 @@ const projects = [
     tags: ["PHP", "API Externa", "Docker", "MVC"],
     github: "https://github.com/Caiosenaf15/ProjetoFilmes",
     demo: "",
+    image: "/imgs/CineTrack.png",
   },
 ];
 
@@ -36,10 +39,13 @@ export default function Projects() {
           {projects.map((project, index) => (
             <FadeIn key={project.title} delay={index * 0.1}>
               <div className="group rounded-xl overflow-hidden border border-foreground/10 hover:border-accent/40 transition-all duration-300 bg-foreground/[0.03] hover:bg-foreground/[0.06] hover:-translate-y-1 h-full flex flex-col">
-                <div className="aspect-video bg-gradient-to-br from-foreground/10 to-foreground/5 flex items-center justify-center">
-                  <span className="text-foreground/30 text-sm">
-                    Preview do projeto
-                  </span>
+                <div className="aspect-video relative bg-foreground/5 overflow-hidden">
+                  <Image
+                    src={project.image}
+                    alt={`Preview do projeto ${project.title}`}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
                 </div>
 
                 <div className="p-6 flex flex-col flex-1">

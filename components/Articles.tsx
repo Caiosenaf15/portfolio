@@ -15,10 +15,10 @@ const articles = [
     title: "Análise de Desempenho com OpenMP",
     description:
       "Avaliação de Speedup, Eficiência e Lei de Amdahl em algoritmos paralelos — multiplicação de matrizes, Selection Sort, Heap Sort e histogramas — utilizando a biblioteca LibPPC.",
-    coauthor: "",
+    coauthor: "Co-autoria com Lucas Pontes Lira",
     tags: ["C", "OpenMP", "HPC", "Paralelismo"],
-    link: "",
-    linkLabel: "",
+    link: "https://github.com/Caiosenaf15/Paralelizacao-de-Algoritmos",
+    linkLabel: "Repositório",
   },
 ];
 
