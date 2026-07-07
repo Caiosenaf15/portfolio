@@ -2,10 +2,10 @@ import FadeIn from "./FadeIn";
 
 const projects = [
   {
-    title: "Projeto Catálogo de Filmes",
+    title: "Projeto CineTrack",
     description:
-      "Aplicação para compartilhamento de fotos em tempo real durante eventos, com upload via celular e galeria ao vivo.",
-    tags: ["Firebase", "Firestore", "JavaScript", "Storage"],
+      "Aplicação para catálogo de filmes",
+    tags: ["API", "", "JavaScript", "Storage"],
     github: "https://github.com/Caiosenaf15/seu-repo",
     demo: "https://cinetrack-5i6f.onrender.com/",
   },
@@ -23,7 +23,7 @@ const projects = [
       "Estudo acadêmico comparando desempenho de AES-256, SHA-256, Bcrypt e Argon2 em MongoDB, Redis e Cassandra.",
     tags: ["Python", "MongoDB", "Redis", "Cassandra"],
     github: "https://github.com/Caiosenaf15/benchmark-NoSQL",
-    demo: "",
+    demo: "https://caiosenaf15.github.io/benchmark-NoSQL/",
   },
   {
     title: "Benchmark HPC com OpenMP",
