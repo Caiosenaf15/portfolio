@@ -12,13 +12,13 @@ export default function Contact() {
             Vamos conversar?
           </h2>
           <p className="text-foreground/70 text-lg mb-10">
-            Estou em busca de oportunidades de estágio e aberto a novas
-            conexões. Fique à vontade para entrar em contato.
+            Estou aberto a novas oportunidades e conexões. Fique à vontade
+            para entrar em contato.
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center">
             <a
-              href="mailto:seuemail@exemplo.com"
+              href="mailto:caiofreitas15@gmail.com"
               className="bg-accent text-white px-6 py-3 rounded-lg font-medium hover:scale-105 hover:shadow-lg hover:shadow-accent/30 transition-all"
             >
               Enviar Email

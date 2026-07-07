@@ -6,7 +6,7 @@ export default function Hero() {
     >
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_50%_20%,rgba(59,130,246,0.15),transparent_60%)]" />
 
-      <p className="text-accent font-medium mb-4 tracking-wide animate-fade-in">
+      <p className="text-accent font-medium mb-4 tracking-wide">
         Olá, eu sou
       </p>
 
@@ -15,16 +15,17 @@ export default function Hero() {
       </h1>
 
       <p className="text-lg md:text-xl text-foreground/70 max-w-xl mb-8">
-        Estudante de Sistemas de Informação e desenvolvedor Full Stack,
-        construindo experiências web funcionais e bem cuidadas.
+        Desenvolvedor de Sistemas com experiência em Ruby on Rails, Node.js e
+        Vue.js, construindo aplicações web robustas com foco em código
+        limpo e testável.
       </p>
 
       <div className="flex gap-4 flex-wrap justify-center">
         <a
-          href="#projetos"
+          href="#experiencia"
           className="bg-accent text-white px-6 py-3 rounded-lg font-medium hover:scale-105 hover:shadow-lg hover:shadow-accent/30 transition-all"
         >
-          Ver Projetos
+          Ver Experiência
         </a>
         <a
           href="#contato"
