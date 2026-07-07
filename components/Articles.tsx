@@ -19,7 +19,7 @@ const articles = [
     coauthor: "Co-autoria com Lucas Pontes Lira",
     tags: ["C", "OpenMP", "HPC", "Paralelismo"],
     repo: "https://github.com/Caiosenaf15/Paralelizacao-de-Algoritmos",
-    repoLabel: "",
+    repoLabel: "Repositório",
     pdf: "/articles/paralelismo-openmp.pdf",
   },
 ];
