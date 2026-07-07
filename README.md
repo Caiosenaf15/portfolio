@@ -2,7 +2,7 @@
 
 Site pessoal de portfólio, construído para apresentar minha trajetória, experiência profissional, projetos e artigos acadêmicos.
 
-🔗 **Acesse:** [portfolio-caio.vercel.app](https://portfolio-tau-hazel-26.vercel.app/)
+🔗 **Acesse:** [caio-sena-portfolio.vercel.app](https://caio-sena-portfolio.vercel.app/)
 
 ## Sobre o projeto
 
