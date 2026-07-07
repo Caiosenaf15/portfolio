@@ -3,7 +3,7 @@ import FadeIn from "./FadeIn";
 const skillCategories = [
   {
     category: "Linguagens",
-    items: ["Ruby", "JavaScript", "TypeScript", "Java", "Python"],
+    items: ["Ruby", "JavaScript", "TypeScript", "Java", "Python", "C", "Php"],
   },
   {
     category: "Frameworks",
@@ -11,7 +11,7 @@ const skillCategories = [
   },
   {
     category: "Banco de Dados",
-    items: ["PostgreSQL", "MongoDB", "Redis"],
+    items: ["PostgreSQL", "MongoDB", "Redis", "MySQL", "Cassandra"],
   },
   {
     category: "Ferramentas e Cloud",
