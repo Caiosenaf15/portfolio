@@ -5,8 +5,8 @@ const projects = [
   {
     title: "Maria 15 Anos - Galeria",
     description:
-      "Aplicação de compartilhamento de fotos em tempo real para festa de 15 anos, com painel administrativo protegido por senha e design inspirado no Liquid Glass da Apple. Utilização do Supabase.",
-    tags: ["Supabase", "JavaScript", "CSS", "Glassmorphism"],
+      "Aplicação de compartilhamento de fotos em tempo real para eventos, com upload direto pela câmera do celular, galeria ao vivo e painel administrativo protegido por senha para gerenciamento do conteúdo.",
+    tags: ["Supabase", "JavaScript", "CSS", "Realtime"],
     github: "",
     demo: "",
     image: "/imgs/Maria15anos.png",

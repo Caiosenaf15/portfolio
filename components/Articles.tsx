@@ -8,8 +8,9 @@ const articles = [
       "Estudo comparando desempenho de AES-256-CFB, SHA-256, HMAC-SHA-256, Bcrypt e Argon2 em MongoDB, Redis e Cassandra 4.1, com pacote de reprodutibilidade publicado.",
     coauthor: "Co-autoria com Pedro Henrique T. Pinto",
     tags: ["Criptografia", "MongoDB", "Redis", "Cassandra"],
-    link: "https://github.com/Caiosenaf15/benchmark-NoSQL",
-    linkLabel: "Repositório",
+    repo: "https://github.com/Caiosenaf15/benchmark-NoSQL",
+    repoLabel: "Repositório",
+    pdf: "",
   },
   {
     title: "Análise de Desempenho com OpenMP",
@@ -17,8 +18,9 @@ const articles = [
       "Avaliação de Speedup, Eficiência e Lei de Amdahl em algoritmos paralelos — multiplicação de matrizes, Selection Sort, Heap Sort e histogramas — utilizando a biblioteca LibPPC.",
     coauthor: "Co-autoria com Lucas Pontes Lira",
     tags: ["C", "OpenMP", "HPC", "Paralelismo"],
-    link: "https://github.com/Caiosenaf15/Paralelizacao-de-Algoritmos",
-    linkLabel: "Repositório",
+    repo: "",
+    repoLabel: "",
+    pdf: "/articles/paralelismo-openmp.pdf",
   },
 ];
 
@@ -69,16 +71,28 @@ export default function Articles() {
                     ))}
                   </div>
 
-                  {article.link && (
-                    <a
-                      href={article.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm font-medium text-accent hover:underline"
-                    >
-                      {article.linkLabel} →
-                    </a>
-                  )}
+                  <div className="flex gap-4">
+                    {article.pdf && (
+                      <a
+                        href={article.pdf}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm font-medium text-accent hover:underline"
+                      >
+                        Ver artigo →
+                      </a>
+                    )}
+                    {article.repo && (
+                      <a
+                        href={article.repo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm font-medium text-accent hover:underline"
+                      >
+                        {article.repoLabel}
+                      </a>
+                    )}
+                  </div>
                 </div>
               </div>
             </FadeIn>
