@@ -2,12 +2,12 @@ import FadeIn from "./FadeIn";
 
 const projects = [
   {
-    title: "Photo Share - Eventos",
+    title: "Projeto Catálogo de Filmes",
     description:
       "Aplicação para compartilhamento de fotos em tempo real durante eventos, com upload via celular e galeria ao vivo.",
     tags: ["Firebase", "Firestore", "JavaScript", "Storage"],
     github: "https://github.com/Caiosenaf15/seu-repo",
-    demo: "",
+    demo: "https://cinetrack-5i6f.onrender.com/",
   },
   {
     title: "Maria 15 Anos - Galeria",
