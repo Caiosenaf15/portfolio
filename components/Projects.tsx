@@ -2,35 +2,19 @@ import FadeIn from "./FadeIn";
 
 const projects = [
   {
-    title: "Projeto CineTrack",
-    description:
-      "Aplicação para catálogo de filmes",
-    tags: ["API", "", "JavaScript", "Storage"],
-    github: "https://github.com/Caiosenaf15/seu-repo",
-    demo: "https://cinetrack-5i6f.onrender.com/",
-  },
-  {
     title: "Maria 15 Anos - Galeria",
     description:
-      "App de compartilhamento de fotos para festa de 15 anos, com painel administrativo e design inspirado no Liquid Glass da Apple.",
+      "Aplicação de compartilhamento de fotos em tempo real para festa de 15 anos, com painel administrativo protegido por senha e design inspirado no Liquid Glass da Apple. Prototipado inicialmente com Firebase e migrado para Supabase.",
     tags: ["Supabase", "JavaScript", "CSS", "Glassmorphism"],
-    github: "https://github.com/Caiosenaf15/seu-repo",
+    github: "",
     demo: "",
   },
   {
-    title: "Benchmark Criptográfico NoSQL",
+    title: "ProjetoFilmes",
     description:
-      "Estudo acadêmico comparando desempenho de AES-256, SHA-256, Bcrypt e Argon2 em MongoDB, Redis e Cassandra.",
-    tags: ["Python", "MongoDB", "Redis", "Cassandra"],
-    github: "https://github.com/Caiosenaf15/benchmark-NoSQL",
-    demo: "https://caiosenaf15.github.io/benchmark-NoSQL/",
-  },
-  {
-    title: "Benchmark HPC com OpenMP",
-    description:
-      "Artigo acadêmico avaliando Speedup, Eficiência e Lei de Amdahl em algoritmos paralelos com OpenMP.",
-    tags: ["C", "OpenMP", "LaTeX", "Paralelismo"],
-    github: "https://github.com/Caiosenaf15/seu-repo",
+      "Aplicação web para busca e exploração de filmes, consumindo uma API externa e exibindo informações detalhadas de forma organizada.",
+    tags: ["PHP", "API Externa", "Docker", "MVC"],
+    github: "https://github.com/Caiosenaf15/ProjetoFilmes",
     demo: "",
   },
 ];
@@ -51,18 +35,18 @@ export default function Projects() {
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <FadeIn key={project.title} delay={index * 0.1}>
-              <div className="group rounded-xl overflow-hidden border border-foreground/10 hover:border-accent/40 transition-all duration-300 bg-foreground/[0.03] hover:bg-foreground/[0.06] hover:-translate-y-1">
+              <div className="group rounded-xl overflow-hidden border border-foreground/10 hover:border-accent/40 transition-all duration-300 bg-foreground/[0.03] hover:bg-foreground/[0.06] hover:-translate-y-1 h-full flex flex-col">
                 <div className="aspect-video bg-gradient-to-br from-foreground/10 to-foreground/5 flex items-center justify-center">
                   <span className="text-foreground/30 text-sm">
                     Preview do projeto
                   </span>
                 </div>
 
-                <div className="p-6">
+                <div className="p-6 flex flex-col flex-1">
                   <h3 className="font-heading text-xl font-bold mb-2 group-hover:text-accent transition-colors">
                     {project.title}
                   </h3>
-                  <p className="text-foreground/70 mb-4">
+                  <p className="text-foreground/70 mb-4 flex-1">
                     {project.description}
                   </p>
 
@@ -77,26 +61,30 @@ export default function Projects() {
                     ))}
                   </div>
 
-                  <div className="flex gap-4">
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm font-medium text-accent hover:underline"
-                    >
-                      Código
-                    </a>
-                    {project.demo && (
-                      <a
-                        href={project.demo}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-sm font-medium text-accent hover:underline"
-                      >
-                        Demo
-                      </a>
-                    )}
-                  </div>
+                  {(project.github || project.demo) && (
+                    <div className="flex gap-4">
+                      {project.github && (
+                        <a
+                          href={project.github}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-sm font-medium text-accent hover:underline"
+                        >
+                          Código
+                        </a>
+                      )}
+                      {project.demo && (
+                        <a
+                          href={project.demo}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-sm font-medium text-accent hover:underline"
+                        >
+                          Demo
+                        </a>
+                      )}
+                    </div>
+                  )}
                 </div>
               </div>
             </FadeIn>
