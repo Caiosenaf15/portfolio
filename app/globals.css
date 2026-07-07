@@ -1,14 +1,19 @@
 @import "tailwindcss";
-@import "tw-animate-css";
-@import "shadcn/tailwind.css";
-
-@custom-variant dark (&:is(.dark *));
 
 @theme {
   --font-sans: var(--font-inter);
   --font-heading: var(--font-space-grotesk);
-  
+
   --color-background: #0a0a0a;
   --color-foreground: #f5f5f5;
   --color-accent: #3b82f6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: var(--color-accent);
+  color: white;
 }

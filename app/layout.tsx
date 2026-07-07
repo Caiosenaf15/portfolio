@@ -14,7 +14,8 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: "Caio Sena | Portfólio",
-  description: "Portfólio de Caio Sena, estudante de Sistemas de Informação e desenvolvedor Full Stack",
+  description:
+    "Portfólio de Caio Sena, estudante de Sistemas de Informação e desenvolvedor Full Stack.",
 };
 
 export default function RootLayout({
@@ -27,7 +28,9 @@ export default function RootLayout({
       lang="pt-BR"
       className={`${inter.variable} ${spaceGrotesk.variable} h-full antialiased scroll-smooth`}
     >
-      <body className="min-h-full flex flex-col bg-[#0a0a0a] text-[#f5f5f5]">{children}</body>
+      <body className="min-h-full flex flex-col bg-background text-foreground">
+        {children}
+      </body>
     </html>
   );
 }

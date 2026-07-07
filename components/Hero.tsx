@@ -1,13 +1,12 @@
-import FadeIn from "@/components/FadeIn";
-
 export default function Hero() {
   return (
     <section
       id="inicio"
-      className="min-h-screen flex flex-col items-center justify-center text-center px-6"
+      className="min-h-screen flex flex-col items-center justify-center text-center px-6 pt-20 relative overflow-hidden"
     >
-      <FadeIn>
-      <p className="text-accent font-medium mb-4 tracking-wide">
+      <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_50%_20%,rgba(59,130,246,0.15),transparent_60%)]" />
+
+      <p className="text-accent font-medium mb-4 tracking-wide animate-fade-in">
         Olá, eu sou
       </p>
 
@@ -21,14 +20,19 @@ export default function Hero() {
       </p>
 
       <div className="flex gap-4 flex-wrap justify-center">
-        <a href="#projetos" className="bg-accent text-white px-6 py-3 rounded-lg font-medium hover:scale-105 transition-transform">
-        Ver Projetos
+        <a
+          href="#projetos"
+          className="bg-accent text-white px-6 py-3 rounded-lg font-medium hover:scale-105 hover:shadow-lg hover:shadow-accent/30 transition-all"
+        >
+          Ver Projetos
         </a>
-        <a href="#contato"className="border border-foreground/20 px-6 py-3 rounded-lg font-medium hover:bg-foreground/5 hover:scale-105 transition-transform">
+        <a
+          href="#contato"
+          className="border border-foreground/20 px-6 py-3 rounded-lg font-medium hover:bg-foreground/5 hover:scale-105 transition-all"
+        >
           Contato
         </a>
       </div>
-      </FadeIn>
     </section>
   );
 }
