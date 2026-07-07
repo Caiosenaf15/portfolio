@@ -10,7 +10,7 @@ const articles = [
     tags: ["Criptografia", "MongoDB", "Redis", "Cassandra"],
     repo: "https://github.com/Caiosenaf15/benchmark-NoSQL",
     repoLabel: "Repositório",
-    pdf: "",
+    pdf: "/articles/benchmark-nosql.pdf",
   },
   {
     title: "Análise de Desempenho com OpenMP",
@@ -18,7 +18,7 @@ const articles = [
       "Avaliação de Speedup, Eficiência e Lei de Amdahl em algoritmos paralelos — multiplicação de matrizes, Selection Sort, Heap Sort e histogramas — utilizando a biblioteca LibPPC.",
     coauthor: "Co-autoria com Lucas Pontes Lira",
     tags: ["C", "OpenMP", "HPC", "Paralelismo"],
-    repo: "",
+    repo: "https://github.com/Caiosenaf15/Paralelizacao-de-Algoritmos",
     repoLabel: "",
     pdf: "/articles/paralelismo-openmp.pdf",
   },
