@@ -3,6 +3,15 @@ import FadeIn from "./FadeIn";
 
 const projects = [
   {
+    title: "Moodfy",
+    description:
+      "Web app que gera uma experiência visual e musical a partir do humor descrito pelo usuário: a IA cria uma paleta de cores e um texto poético, busca músicas relacionadas no Spotify, e permite ouvir cada faixa via YouTube.",
+    tags: ["Next.js", "TypeScript", "Gemini API", "Spotify API", "YouTube API"],
+    github: "https://github.com/Caiosenaf15/MoodPlaylist",
+    demo: "https://moodfy-app.vercel.app/",
+    image: "/imgs/moodfy.png",
+  },
+  {
     title: "Maria 15 Anos - Galeria",
     description:
       "Aplicação de compartilhamento de fotos em tempo real para eventos, com upload direto pela câmera do celular, galeria ao vivo e painel administrativo protegido por senha para gerenciamento do conteúdo.",
