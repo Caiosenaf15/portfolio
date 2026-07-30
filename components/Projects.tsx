@@ -18,7 +18,7 @@ const projects = [
     tags: ["Python", "Pandas", "PostgreSQL", "Streamlit", "Docker"],
     github: "https://github.com/Caiosenaf15/finpulse",
     demo: "",
-    image: "/imgs/finpulse.png",
+    image: "/imgs/FinPulse.png",
   },
   {
     title: "Maria 15 Anos - Galeria",
