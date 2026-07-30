@@ -12,6 +12,15 @@ const projects = [
     image: "/imgs/moodfy.png",
   },
   {
+    title: "FinPulse",
+    description:
+      "Pipeline de ETL em Python que coleta séries econômicas do Banco Central e cotações de criptomoedas, processa os dados com pandas, armazena em PostgreSQL e exibe tudo em um dashboard interativo — com coleta agendada e testes automatizados.",
+    tags: ["Python", "Pandas", "PostgreSQL", "Streamlit", "Docker"],
+    github: "https://github.com/Caiosenaf15/finpulse",
+    demo: "",
+    image: "/imgs/finpulse.png",
+  },
+  {
     title: "Maria 15 Anos - Galeria",
     description:
       "Aplicação de compartilhamento de fotos em tempo real para eventos, com upload direto pela câmera do celular, galeria ao vivo e painel administrativo protegido por senha para gerenciamento do conteúdo.",
