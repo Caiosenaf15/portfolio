@@ -2,30 +2,38 @@ import FadeIn from "./FadeIn";
 
 const experiences = [
   {
-    role: "Desenvolvedor de Software",
-    company: "Casa Filtros",
-    location: "Nova Friburgo/RJ",
-    period: "12/2023 – 07/2025",
-    achievements: [
-      "Criou sistema de gestão de estoque com alertas automáticos de reposição, reduzindo em 40% as faltas em estoque",
-      "Desenvolveu sistemas de cadastro e acompanhamento de clientes, reduzindo em 60% o tempo de busca por informações",
-      "Automatizou relatórios de clientes, diminuindo em 50% o tempo manual de conferência",
-      "Aplicou TDD e princípios SOLID, reduzindo em 30% o tempo de manutenção do código",
-      "Melhorou a performance de queries no PostgreSQL em 20%",
-    ],
-    tags: ["Node.js", "Vue.js", "PostgreSQL", "Git"],
-  },
-  {
     role: "Analista de Sistemas Júnior",
     company: "LWSA",
     location: "São Paulo/SP",
     period: "08/2025 – 11/2025",
     achievements: [
-      "Participou de times multidisciplinares desenvolvendo soluções para os sistemas da squad",
-      "Contribuiu para garantir qualidade e segurança nas entregas e processos",
-      "Construiu e liderou tecnicamente soluções da equipe de desenvolvimento",
+      "Desenvolveu e manteve serviços backend em Java, Ruby on Rails e PostgreSQL, sustentando alta disponibilidade e estabilidade em 100% dos deploys executados no período.",
+      "Integrou mais de 5 endpoints de APIs RESTful conectadas à nuvem AWS, reduzindo a latência média das requisições em 15%.",
+      "Conduziu a revisão de código (Code Review) em mais de 20 Pull Requests do time, garantindo padrões de arquitetura, segurança e zero falhas críticas introduzidas em produção.",
+      "Atuou em rotinas ágeis (Scrum/Kanban) resolvendo mais de 30 chamados técnicos e bugs, reduzindo o tempo médio de atendimento de chamados (SLA) em 25%.",
     ],
-    tags: ["Java", "Ruby on Rails", "PostgreSQL", "Docker", "AWS"],
+    tags: [
+      "Java",
+      "AWS",
+      "Docker",
+      "Git",
+      "PostgreSQL",
+      "Ruby",
+      "Ruby on Rails",
+      "APIs REST",
+    ],
+  },
+  {
+    role: "Desenvolvedor de Software",
+    company: "Casa Filtros",
+    location: "Nova Friburgo/RJ",
+    period: "12/2023 – 07/2025",
+    achievements: [
+      "Projetou e desenvolveu microsserviços para automação de rotinas operacionais, resultando na redução de 40% na falta de insumos e 60% no tempo de recuperação de dados.",
+      "Implementou suítes de testes automatizados com TDD e boas práticas SOLID, reduzindo em 30% o tempo gasto na manutenção do código.",
+      "Realizou otimizações de consultas SQL no banco PostgreSQL, promovendo um ganho de 20% na velocidade de leitura de relatórios do sistema.",
+    ],
+    tags: ["Node.js", "Vue.js", "PostgreSQL", "Git", "TDD", "APIs REST"],
   },
 ];
 
