@@ -13,7 +13,7 @@ const experiences = [
       "Aplicou TDD e princípios SOLID, reduzindo em 30% o tempo de manutenção do código",
       "Melhorou a performance de queries no PostgreSQL em 20%",
     ],
-    tags: ["Node.js", "Vue.js", "Ruby on Rails", "PostgreSQL", "Git"],
+    tags: ["Node.js", "Vue.js", "PostgreSQL", "Git"],
   },
   {
     role: "Analista de Sistemas Júnior",
