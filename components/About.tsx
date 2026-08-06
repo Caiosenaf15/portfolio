@@ -15,27 +15,26 @@ export default function About() {
 
           <div className="space-y-4 text-foreground/70 text-lg leading-relaxed">
             <p>
-              Sou desenvolvedor de sistemas com 2 anos de experiência
-              construindo aplicações web utilizando Ruby on Rails, Node.js e
-              Vue.js. Tenho sólidos conhecimentos em banco de dados e aplico
-              práticas de TDD e SOLID no dia a dia, buscando sempre entregar
-              código limpo, testável e de fácil manutenção.
+             Desenvolvedor de Software com experiência na construção
+              de aplicações web, atuando no ciclo completo de desenvolvimento — 
+              desde o levantamento de requisitos com usuários até a entrega de
+               soluções de alto impacto. Tenho vivência na criação de sistemas
+                que automatizaram relatórios, reduziram faltas de estoque e 
+                otimizaram a performance de bancos de dados.
+            </p>
+            <p>
+              Minha stack principal inclui Ruby on Rails, Node.js e Vue.js, 
+              combinada a sólidos conhecimentos em bancos de dados. Aplico 
+              rotineiramente práticas de TDD e princípios SOLID para garantir 
+              entregas com código limpo, testável e de fácil manutenção.
             </p>
 
             <p>
-              Já atuei no ciclo completo de desenvolvimento de software, do
-              levantamento de requisitos com usuários até a entrega de
-              soluções que geraram impacto real — como reduzir faltas de
-              estoque, automatizar relatórios e otimizar performance de
-              banco de dados. Também sou graduando em Sistemas de Informação,
-              o que me ajuda a equilibrar prática de mercado com
-              fundamentos teóricos sólidos.
-            </p>
-
-            <p>
-              Gosto de trabalhar em equipe, em contato direto com quem usa o
-              que eu construo, e estou sempre em busca de novos desafios que
-              me permitam crescer tecnicamente.
+              Atualmente cursando Sistemas de Informação, me dedico a equilibrar
+               a prática do mercado com fundamentos teóricos sólidos. Valorizo o 
+               trabalho em equipe, o contato direto com usuários e a 
+               busca por novos desafios que promovam meu constante crescimento 
+               técnico.
             </p>
           </div>
         </div>
