@@ -2,24 +2,24 @@ import FadeIn from "./FadeIn";
 
 const skillCategories = [
   {
-    category: "Linguagens",
-    items: ["Ruby", "JavaScript", "TypeScript", "Java", "Python", "C", "Php"],
+    "category": "Linguagens",
+    "items": ["Ruby", "JavaScript", "TypeScript", "Java", "Python", "PHP", "C"]
   },
   {
-    category: "Frameworks",
-    items: ["Ruby on Rails", "Node.js", "Vue.js", "React", "Next.js"],
+    "category": "Frameworks e Libs",
+    "items": ["Ruby on Rails", "Spring Boot", "Node.js", "Vue.js", "React", "Next.js"]
   },
   {
-    category: "Banco de Dados",
-    items: ["PostgreSQL", "MongoDB", "Redis", "MySQL", "Cassandra"],
+    "category": "Bancos de Dados",
+    "items": ["PostgreSQL", "MongoDB", "Redis", "MySQL", "Cassandra"]
   },
   {
-    category: "Ferramentas e Cloud",
-    items: ["Git", "Docker", "AWS", "Vercel"],
+    "category": "Ferramentas e Cloud",
+    "items": ["Git", "Docker", "AWS", "Vercel"]
   },
   {
-    category: "Práticas",
-    items: ["TDD", "SOLID", "Scrum"],
+    "category": "Práticas e Metodologias",
+    "items": ["TDD", "JUnit", "SOLID", "Clean Code", "Scrum"]
   },
 ];
 
